@@ -169,6 +169,8 @@ defmodule Bonny.CRD do
     |> Map.put(:versions, [
       %{
         name: version,
+        served: true,
+        storage: true,
         schema: %{
           openAPIV3Schema: %{
             additionalPrinterColumns: additional_printer_columns_v1
