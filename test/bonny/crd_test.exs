@@ -55,6 +55,8 @@ defmodule Bonny.CRDTest do
           versions: [
             %{
               name: "v1",
+              served: true,
+              storage: true,
               schema: %{
                 openAPIV3Schema: %{
                   additionalPrinterColumns: [
